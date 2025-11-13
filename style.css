@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(247, 211, 164);
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.container{
+    margin-left: 10rem;
+    /* margin-top: 2rem; */
+    background-color: #fff;
+    width: 80%;
+    height: 120%;
+    text-align: left;
+    border-radius: 20px;
+    padding-bottom: 5rem;
+    box-shadow: 0 0 12px rgba(18, 17, 15, 0.3);
+}
+.sub_container img{
+    width: 80%;
+    margin-left: 8.5em;
+    margin-top: 7em;
+    border-radius: 10px;
+}
+.sub_container h1{
+   font-size: 3em;
+   padding-left: 2.7em;
+   padding-top: 0.5em;
+}
+.sub_container p{
+    text-align: justify;
+    padding-left: 5.5em;
+    padding-top: 0.2em;
+    font-size: 1.5em;
+    width: 90.5%;
+}
+.container .border{
+    padding: 1rem 2rem;
+    width: 80%;
+    background-color: rgb(247, 211, 164);
+    margin-left: 8.2em;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+.container .border h3{
+    font-size: 2rem;
+    /* padding-left: 0.05em; */
+    color: rgb(251, 144, 3);
+}
+
+.container .border ul{
+    color: black;
+    font-size: 1.2em;
+    gap: 0.5em;
+    padding-left: 1.5em;
+}
+.container .prerequisites{
+    padding: 1em 8.4em;
+
+}
+.container .prerequisites ul{
+    color: black;
+    font-size: 1.2em;
+    gap: 0.5em;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+}
+.container .prerequisites h2{
+    font-size: 2.5rem;
+    color: rgb(251, 144, 3);
+    text-align: left;
+}
+.container .instructions h2{
+    font-size: 2.5rem;
+    padding: 0.5rem 8.6rem;
+    color: rgb(251, 144, 3);
+
+}
+.container .instructions ol{
+    color: black;
+    font-size: 1.2em;
+    gap: 1em;
+    padding-left: 8.5em;
+    padding-top: 0.5em;
+}
+
+.container .instructions ol li{
+    text-align: justify;
+    width: 89%;
+}
+.container .Nutrition{
+    width: 80%;
+    font-size: 1.2em;
+    padding: 0.5rem 8.6rem;
+
+}
+.container .Nutrition h2{
+    color: rgb(251, 144, 3);
+    font-size: 2em;
+}
+.container .Nutrition #table{
+    gap: 1rem;
+    width: 80%;
+    padding: 0.2em ;
+}
+.container .Nutrition #table tr{
+    border: 2px solid;
+}
+.container .Nutrition #nutrient{
+    gap: rem;
+    width: 63%;
+    padding: 0.2em ;
+}
+
+.container .Nutrition #tab{
+    gap: 1rem;
+    width: 92%;
+    padding: 0.2em ;
+}
+
+
+
+@media(max-width:600px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+    font-family: 'Times New Roman', Times, serif; 
+    background-color:rgb(250, 226, 250); 
+    border-radius: 20px; 
+    padding-top: 10px;
+    padding-bottom:1em;
+    }
+.container{
+    background-color: white;
+    width: 80%;
+    margin-left:20%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    padding-bottom: 3em;
+}
+.sub_container img{
+    box-sizing: border-box;
+    margin-left:10%;
+    margin-top: 10%;
+    width: 80%;
+}
+ .container .sub_container h1{
+   margin-left: -10%;
+   font-size: 1.45em;
+}
+.sub_container p{
+    width: 108%;
+    margin-left: -18%;
+    font-size: 1em;
+}
+.container .border{
+    background-color:rgb(250, 226, 250); 
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+.container .border h3{
+    font-size: 1.19em;
+    margin-left: -5%;
+    padding:0  0;
+    color: rgb(236, 102, 236);
+}
+.container .border ul{
+    font-size: 1em;
+    margin-left: -10%;
+    width: 130%;
+}
+.container .prerequisites{
+    width: 180%;
+    margin-left: -32%;
+
+}
+
+.container .prerequisites h2{
+    font-size: 1.45em;
+    color: rgb(236, 102, 236);   
+}
+.container .prerequisites ul{
+    font-size: 1em;
+}
+/* .container hr{
+    margin-left: 10%;
+    width: 80%;
+}
+.container .Nutrition hr{
+    margin-left: 10%;
+    width: 80%;
+} */
+ hr{
+    display: none;
+ }
+
+.container .instructions{
+    width: 180%;
+    margin-left: -32%;
+}
+.container .instructions h2{
+    font-size: 1.45em;
+    color: rgb(236, 102, 236);   
+}
+.container .instructions ol{
+    font-size: 1em;
+    width: 73%;
+}
+.container .Nutrition{
+    width: 100%;
+    margin-left: -32%;
+}
+.container .Nutrition h2{
+    font-size: 1.45em;
+    color: rgb(236, 102, 236);     
+}
+.container .Nutrition p{
+    width: 910%;
+    margin-left: -10%;
+    font-size: 0.9em;
+    text-align: justify;
+}
+.container .Nutrition #table{
+    width: 1370%;
+    margin-left: -28%;
+    font-size: 1rem;
+    gap: -10em;
+}
+.container .Nutrition #nutrient{
+    width: 1070%;
+    margin-left: -28%;
+    font-size: 0.9rem;
+    gap: 10em; 
+}
+.container .Nutrition #tab{
+    width: 1480%;
+    margin-left: -28%;
+    font-size: 1rem;
+    gap: 10em;  
+}
+} 
